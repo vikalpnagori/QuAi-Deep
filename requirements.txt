@@ -1,0 +1,8 @@
+gitpython==3.1.41
+semgrep==1.75.0  # Use a compatible, stable version
+flask==3.0.3
+requests==2.32.3  # Add the requests library
+vulners==2.1.9  # CVE database integration
+python-nvd==2.0.0  # National Vulnerability Database
+jsonlines==4.0.0  # For handling JSONL files
+packaging==24.1  # For dependency parsing
