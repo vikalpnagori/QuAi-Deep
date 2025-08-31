@@ -1,0 +1,44 @@
+  # Database files
+  *.db
+  *.db-wal
+  *.db-shm
+  scan_results.db*
+
+  # Python cache
+  __pycache__/
+  *.pyc
+  *.pyo
+  *.pyd
+  .Python
+
+  # Virtual environment
+  venv/
+  env/
+  ENV/
+
+  # IDE files
+  .vscode/
+  .idea/
+  *.swp
+  *.swo
+
+  # OS files
+  .DS_Store
+  Thumbs.db
+
+  # Logs
+  *.log
+  logs/
+
+  # Temporary files
+  temp/
+  tmp/
+  *.tmp
+
+  # Incremental save files
+  scan_*_incremental.jsonl
+  semgrep_scan_*.json
+
+  # Environment variables
+  .env
+  EOF
